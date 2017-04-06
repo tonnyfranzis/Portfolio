@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D02CCAD21E08F616009512EF /* TNRegisterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02CCAD11E08F616009512EF /* TNRegisterTableViewController.swift */; };
+		D02CCAD81E091B5C009512EF /* TNLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02CCAD71E091B5C009512EF /* TNLoginViewController.swift */; };
+		D02D63911E14E36800B1D175 /* TNFamilyDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02D63901E14E36800B1D175 /* TNFamilyDetailsTableViewController.swift */; };
+		D031EFE81E0A713200ECBB98 /* TNLoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D031EFE71E0A713200ECBB98 /* TNLoginTableViewController.swift */; };
+		D04DDAA21E1E5A1500BC2545 /* TNSignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04DDAA11E1E5A1500BC2545 /* TNSignatureViewController.swift */; };
+		D052B3A01E12568100A24C37 /* TNTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052B39F1E12568100A24C37 /* TNTabBarViewController.swift */; };
+		D05C6A821E07C3D2000867DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C6A811E07C3D2000867DD /* AppDelegate.swift */; };
+		D05C6A871E07C3D2000867DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05C6A851E07C3D2000867DD /* Main.storyboard */; };
+		D05C6A8A1E07C3D2000867DD /* TNportfolio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D05C6A881E07C3D2000867DD /* TNportfolio.xcdatamodeld */; };
+		D05C6A8C1E07C3D2000867DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05C6A8B1E07C3D2000867DD /* Assets.xcassets */; };
+		D05C6A8F1E07C3D2000867DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05C6A8D1E07C3D2000867DD /* LaunchScreen.storyboard */; };
+		D05C6A9A1E07C3D3000867DD /* TNportfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C6A991E07C3D3000867DD /* TNportfolioTests.swift */; };
+		D05C6AA51E07C3D3000867DD /* TNportfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C6AA41E07C3D3000867DD /* TNportfolioUITests.swift */; };
+		D06ADE271E23B5290070AFEA /* TNResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06ADE261E23B5290070AFEA /* TNResumeViewController.swift */; };
+		D0E545A61E139C8800506087 /* TNAboutMeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E545A51E139C8800506087 /* TNAboutMeTableViewController.swift */; };
+		D0E545A81E13A64D00506087 /* TNProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E545A71E13A64D00506087 /* TNProfileTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D05C6A961E07C3D3000867DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05C6A761E07C3D2000867DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05C6A7D1E07C3D2000867DD;
+			remoteInfo = TNportfolio;
+		};
+		D05C6AA11E07C3D3000867DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05C6A761E07C3D2000867DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05C6A7D1E07C3D2000867DD;
+			remoteInfo = TNportfolio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D02CCAD11E08F616009512EF /* TNRegisterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TNRegisterTableViewController.swift; path = ../TNRegisterTableViewController.swift; sourceTree = "<group>"; };
+		D02CCAD71E091B5C009512EF /* TNLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TNLoginViewController.swift; path = ../TNLoginViewController.swift; sourceTree = "<group>"; };
+		D02D63901E14E36800B1D175 /* TNFamilyDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNFamilyDetailsTableViewController.swift; sourceTree = "<group>"; };
+		D031EFE71E0A713200ECBB98 /* TNLoginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TNLoginTableViewController.swift; path = ../TNLoginTableViewController.swift; sourceTree = "<group>"; };
+		D04DDAA11E1E5A1500BC2545 /* TNSignatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNSignatureViewController.swift; sourceTree = "<group>"; };
+		D052B39F1E12568100A24C37 /* TNTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNTabBarViewController.swift; sourceTree = "<group>"; };
+		D05C6A7E1E07C3D2000867DD /* TNportfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TNportfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05C6A811E07C3D2000867DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D05C6A861E07C3D2000867DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D05C6A891E07C3D2000867DD /* TNportfolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TNportfolio.xcdatamodel; sourceTree = "<group>"; };
+		D05C6A8B1E07C3D2000867DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D05C6A8E1E07C3D2000867DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D05C6A901E07C3D2000867DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05C6A951E07C3D3000867DD /* TNportfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNportfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05C6A991E07C3D3000867DD /* TNportfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNportfolioTests.swift; sourceTree = "<group>"; };
+		D05C6A9B1E07C3D3000867DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05C6AA01E07C3D3000867DD /* TNportfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNportfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05C6AA41E07C3D3000867DD /* TNportfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNportfolioUITests.swift; sourceTree = "<group>"; };
+		D05C6AA61E07C3D3000867DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06ADE261E23B5290070AFEA /* TNResumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNResumeViewController.swift; sourceTree = "<group>"; };
+		D0E545A51E139C8800506087 /* TNAboutMeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNAboutMeTableViewController.swift; sourceTree = "<group>"; };
+		D0E545A71E13A64D00506087 /* TNProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNProfileTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D05C6A7B1E07C3D2000867DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05C6A921E07C3D3000867DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05C6A9D1E07C3D3000867DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D031EFE61E0A6FD500ECBB98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D031EFE71E0A713200ECBB98 /* TNLoginTableViewController.swift */,
+				D02CCAD11E08F616009512EF /* TNRegisterTableViewController.swift */,
+				D02CCAD71E091B5C009512EF /* TNLoginViewController.swift */,
+				D052B39F1E12568100A24C37 /* TNTabBarViewController.swift */,
+				D0E545A51E139C8800506087 /* TNAboutMeTableViewController.swift */,
+				D0E545A71E13A64D00506087 /* TNProfileTableViewController.swift */,
+				D02D63901E14E36800B1D175 /* TNFamilyDetailsTableViewController.swift */,
+				D04DDAA11E1E5A1500BC2545 /* TNSignatureViewController.swift */,
+				D06ADE261E23B5290070AFEA /* TNResumeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D05C6A751E07C3D2000867DD = {
+			isa = PBXGroup;
+			children = (
+				D05C6A801E07C3D2000867DD /* TNportfolio */,
+				D05C6A981E07C3D3000867DD /* TNportfolioTests */,
+				D05C6AA31E07C3D3000867DD /* TNportfolioUITests */,
+				D05C6A7F1E07C3D2000867DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D05C6A7F1E07C3D2000867DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05C6A7E1E07C3D2000867DD /* TNportfolio.app */,
+				D05C6A951E07C3D3000867DD /* TNportfolioTests.xctest */,
+				D05C6AA01E07C3D3000867DD /* TNportfolioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D05C6A801E07C3D2000867DD /* TNportfolio */ = {
+			isa = PBXGroup;
+			children = (
+				D031EFE61E0A6FD500ECBB98 /* Controllers */,
+				D05C6A811E07C3D2000867DD /* AppDelegate.swift */,
+				D05C6A851E07C3D2000867DD /* Main.storyboard */,
+				D05C6A8B1E07C3D2000867DD /* Assets.xcassets */,
+				D05C6A8D1E07C3D2000867DD /* LaunchScreen.storyboard */,
+				D05C6A901E07C3D2000867DD /* Info.plist */,
+				D05C6A881E07C3D2000867DD /* TNportfolio.xcdatamodeld */,
+			);
+			path = TNportfolio;
+			sourceTree = "<group>";
+		};
+		D05C6A981E07C3D3000867DD /* TNportfolioTests */ = {
+			isa = PBXGroup;
+			children = (
+				D05C6A991E07C3D3000867DD /* TNportfolioTests.swift */,
+				D05C6A9B1E07C3D3000867DD /* Info.plist */,
+			);
+			path = TNportfolioTests;
+			sourceTree = "<group>";
+		};
+		D05C6AA31E07C3D3000867DD /* TNportfolioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D05C6AA41E07C3D3000867DD /* TNportfolioUITests.swift */,
+				D05C6AA61E07C3D3000867DD /* Info.plist */,
+			);
+			path = TNportfolioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D05C6A7D1E07C3D2000867DD /* TNportfolio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05C6AA91E07C3D3000867DD /* Build configuration list for PBXNativeTarget "TNportfolio" */;
+			buildPhases = (
+				D05C6A7A1E07C3D2000867DD /* Sources */,
+				D05C6A7B1E07C3D2000867DD /* Frameworks */,
+				D05C6A7C1E07C3D2000867DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TNportfolio;
+			productName = TNportfolio;
+			productReference = D05C6A7E1E07C3D2000867DD /* TNportfolio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D05C6A941E07C3D3000867DD /* TNportfolioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05C6AAC1E07C3D3000867DD /* Build configuration list for PBXNativeTarget "TNportfolioTests" */;
+			buildPhases = (
+				D05C6A911E07C3D3000867DD /* Sources */,
+				D05C6A921E07C3D3000867DD /* Frameworks */,
+				D05C6A931E07C3D3000867DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05C6A971E07C3D3000867DD /* PBXTargetDependency */,
+			);
+			name = TNportfolioTests;
+			productName = TNportfolioTests;
+			productReference = D05C6A951E07C3D3000867DD /* TNportfolioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D05C6A9F1E07C3D3000867DD /* TNportfolioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05C6AAF1E07C3D3000867DD /* Build configuration list for PBXNativeTarget "TNportfolioUITests" */;
+			buildPhases = (
+				D05C6A9C1E07C3D3000867DD /* Sources */,
+				D05C6A9D1E07C3D3000867DD /* Frameworks */,
+				D05C6A9E1E07C3D3000867DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05C6AA21E07C3D3000867DD /* PBXTargetDependency */,
+			);
+			name = TNportfolioUITests;
+			productName = TNportfolioUITests;
+			productReference = D05C6AA01E07C3D3000867DD /* TNportfolioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D05C6A761E07C3D2000867DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Focaloid;
+				TargetAttributes = {
+					D05C6A7D1E07C3D2000867DD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D05C6A941E07C3D3000867DD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D05C6A7D1E07C3D2000867DD;
+					};
+					D05C6A9F1E07C3D3000867DD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D05C6A7D1E07C3D2000867DD;
+					};
+				};
+			};
+			buildConfigurationList = D05C6A791E07C3D2000867DD /* Build configuration list for PBXProject "TNportfolio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D05C6A751E07C3D2000867DD;
+			productRefGroup = D05C6A7F1E07C3D2000867DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D05C6A7D1E07C3D2000867DD /* TNportfolio */,
+				D05C6A941E07C3D3000867DD /* TNportfolioTests */,
+				D05C6A9F1E07C3D3000867DD /* TNportfolioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D05C6A7C1E07C3D2000867DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05C6A8F1E07C3D2000867DD /* LaunchScreen.storyboard in Resources */,
+				D05C6A8C1E07C3D2000867DD /* Assets.xcassets in Resources */,
+				D05C6A871E07C3D2000867DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05C6A931E07C3D3000867DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05C6A9E1E07C3D3000867DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D05C6A7A1E07C3D2000867DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D031EFE81E0A713200ECBB98 /* TNLoginTableViewController.swift in Sources */,
+				D02CCAD21E08F616009512EF /* TNRegisterTableViewController.swift in Sources */,
+				D052B3A01E12568100A24C37 /* TNTabBarViewController.swift in Sources */,
+				D0E545A81E13A64D00506087 /* TNProfileTableViewController.swift in Sources */,
+				D02CCAD81E091B5C009512EF /* TNLoginViewController.swift in Sources */,
+				D06ADE271E23B5290070AFEA /* TNResumeViewController.swift in Sources */,
+				D05C6A8A1E07C3D2000867DD /* TNportfolio.xcdatamodeld in Sources */,
+				D05C6A821E07C3D2000867DD /* AppDelegate.swift in Sources */,
+				D0E545A61E139C8800506087 /* TNAboutMeTableViewController.swift in Sources */,
+				D02D63911E14E36800B1D175 /* TNFamilyDetailsTableViewController.swift in Sources */,
+				D04DDAA21E1E5A1500BC2545 /* TNSignatureViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05C6A911E07C3D3000867DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05C6A9A1E07C3D3000867DD /* TNportfolioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05C6A9C1E07C3D3000867DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05C6AA51E07C3D3000867DD /* TNportfolioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D05C6A971E07C3D3000867DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05C6A7D1E07C3D2000867DD /* TNportfolio */;
+			targetProxy = D05C6A961E07C3D3000867DD /* PBXContainerItemProxy */;
+		};
+		D05C6AA21E07C3D3000867DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05C6A7D1E07C3D2000867DD /* TNportfolio */;
+			targetProxy = D05C6AA11E07C3D3000867DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D05C6A851E07C3D2000867DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05C6A861E07C3D2000867DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D05C6A8D1E07C3D2000867DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05C6A8E1E07C3D2000867DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D05C6AA71E07C3D3000867DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D05C6AA81E07C3D3000867DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D05C6AAA1E07C3D3000867DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TNportfolio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AFFocaloid.TNportfolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D05C6AAB1E07C3D3000867DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TNportfolio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AFFocaloid.TNportfolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D05C6AAD1E07C3D3000867DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TNportfolioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AFFocaloid.TNportfolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TNportfolio.app/TNportfolio";
+			};
+			name = Debug;
+		};
+		D05C6AAE1E07C3D3000867DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TNportfolioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AFFocaloid.TNportfolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TNportfolio.app/TNportfolio";
+			};
+			name = Release;
+		};
+		D05C6AB01E07C3D3000867DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TNportfolioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AFFocaloid.TNportfolioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TNportfolio;
+			};
+			name = Debug;
+		};
+		D05C6AB11E07C3D3000867DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TNportfolioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AFFocaloid.TNportfolioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TNportfolio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D05C6A791E07C3D2000867DD /* Build configuration list for PBXProject "TNportfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05C6AA71E07C3D3000867DD /* Debug */,
+				D05C6AA81E07C3D3000867DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05C6AA91E07C3D3000867DD /* Build configuration list for PBXNativeTarget "TNportfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05C6AAA1E07C3D3000867DD /* Debug */,
+				D05C6AAB1E07C3D3000867DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05C6AAC1E07C3D3000867DD /* Build configuration list for PBXNativeTarget "TNportfolioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05C6AAD1E07C3D3000867DD /* Debug */,
+				D05C6AAE1E07C3D3000867DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05C6AAF1E07C3D3000867DD /* Build configuration list for PBXNativeTarget "TNportfolioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05C6AB01E07C3D3000867DD /* Debug */,
+				D05C6AB11E07C3D3000867DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D05C6A881E07C3D2000867DD /* TNportfolio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D05C6A891E07C3D2000867DD /* TNportfolio.xcdatamodel */,
+			);
+			currentVersion = D05C6A891E07C3D2000867DD /* TNportfolio.xcdatamodel */;
+			path = TNportfolio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D05C6A761E07C3D2000867DD /* Project object */;
+}
